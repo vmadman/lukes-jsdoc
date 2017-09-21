@@ -74,4 +74,4 @@ outlined in the [Usage Document](docs/md/usage.md).
 
 ## Useful Links
 
-* [Travis CI Page](https://travis-ci.org/lukes/lukes-jsdoc)
+* [Travis CI Page](https://travis-ci.org/vmadman/lukes-jsdoc)
