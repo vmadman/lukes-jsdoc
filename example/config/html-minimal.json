@@ -1,0 +1,15 @@
+{
+	"source"        : {
+		"include"        : [
+			"lib",
+			"package.json",
+			"README.md"
+		],
+		"includePattern" : ".js$",
+		"excludePattern" : "(node_modules/|docs)"
+	},
+	"opts"          : {
+		"destination" : "./doc/html/",
+		"template"    : "./node_modules/c2cs-jsdoc"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"opts"      : {
+		"template"    : "node_modules/jsdoc-json",
+		"destination" : "doc/json/project.json",
+		"recurse"	  : true,
+		"verbose"	  : true
+	},
+	"tags"      : {
+		"allowUnknownTags" : true,
+		"dictionaries"     : [
+			"jsdoc",
+			"closure"
+		]
+	},
+	"source"    : {
+		"include"        : "lib",
+		"includePattern" : ".+\\.js(doc)?$"
+	},
+	"plugins"   : [ ],
+	"templates" : {
+		"applicationName" : "dustjs-renderer",
+		"disqus"          : "",
+		"googleAnalytics" : "",
+		"openGraph"       : {
+			"title"     : "",
+			"type"      : "website",
+			"image"     : "",
+			"site_name" : "",
+			"url"       : ""
+		},
+		"meta"            : {
+			"title"       : "",
+			"description" : "",
+			"keyword"     : ""
+		},
+		"linenums"        : true,
+		"cleverLinks"     : true,
+		"monospaceLinks"  : true
+	}
+}
