@@ -3,7 +3,7 @@ node_js:
 - '6'
 branches:
   only:
-  - v5
+  - master
 notifications:
   email:
     on_failure: always
