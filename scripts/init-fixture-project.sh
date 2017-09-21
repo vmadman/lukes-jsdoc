@@ -17,8 +17,8 @@ cp /project/example/scripts /fixture-test/scripts -R
 chown vagrant:vagrant /fixture-test -R
 chown 0777 /fixture-test -R
 
-# Link to global c2cs-jsdoc instance
-npm link c2cs-jsdoc
+# Link to global lukechavers/jsdoc instance
+npm link @lukechavers/jsdoc
 
 # Defer to example script
 npm run-script docs

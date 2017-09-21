@@ -63,7 +63,7 @@ env
 
 .travis.yml
 
-# -- C2C Authentication ----------------- #
+# -- Authentication ----------------- #
 
 auth/*.tar.gz
 
@@ -72,7 +72,7 @@ auth/*.tar.gz
 scripts
 grunt
 
-# -- Common C2C Patterns ---------------- #
+# -- Common Patterns ---------------- #
 
 *.depr.*
 */backup/*

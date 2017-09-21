@@ -10,6 +10,6 @@
 	},
 	"opts"          : {
 		"destination" : "./doc/html/",
-		"template"    : "./node_modules/c2cs-jsdoc"
+		"template"    : "./node_modules/lukes-jsdoc"
 	}
 }
