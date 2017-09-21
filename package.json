@@ -1,6 +1,6 @@
 {
   "name": "@lukechavers/jsdoc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A JSDoc theme and plugin collection based on Minami and Loke.",
   "license": "MIT",
   "main": "publish.js",

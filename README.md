@@ -14,7 +14,7 @@ plugin's that I use for most of my JavaScript projects.
 It abbreviates the necessary dependencies for our projects, allowing me 
 to include fewer libraries for our JSDoc generation needs.
 
-## Why did we create it?
+## Why did I create it?
 
 I wanted a simple way to add JSDoc documentation to all (or most) of my 
 Javascript projects without needing to train each of my coworkers on the 
