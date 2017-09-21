@@ -1,5 +1,5 @@
 {
-	"name"            : "lukes-jsdoc",
+	"name"            : "@lukechavers/jsdoc",
 	"version"         : "0.1.0",
 	"description"     : "A JSDoc theme and plugin collection based on Minami and Loke.",
 	"license"         : "MIT",
