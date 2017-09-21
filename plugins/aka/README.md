@@ -3,7 +3,7 @@ aka
 
 ## Plugin Origin
 
-This plugin is an original creation of C2C Schools, LLC.
+This plugin is an original creation of Luke Chavers.
 
 ## Usage
 
