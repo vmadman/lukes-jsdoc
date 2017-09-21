@@ -1,0 +1,19 @@
+{
+	"name"            : "lukes-jsdoc-fixture-test",
+	"version"         : "0.1.0",
+	"description"     : "This project is a mock project used to test the lukes-jsdoc module",
+	"license"         : "MIT",
+	"author"          : {
+		"name"  : "Luke Chavers",
+		"email" : "luke@chavers.io",
+		"url"   : "http://www.lukechavers.com/"
+	},
+	"scripts"         : {
+		"docs" : "scripts/build-docs.sh"
+	},
+	"files"           : [ ],
+	"keywords"        : [ ],
+	"devDependencies" : { },
+	"dependencies"    : {
+	}
+}

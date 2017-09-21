@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '6'
+branches:
+  only:
+  - v5
+notifications:
+  email:
+    on_failure: always
+install: true
+deploy:
+  provider: npm
+  email: npm@lukechavers.com
+  on:
+    all_branches: true
+  api_key:
+    secure: Rm1RZsrgMkbwgNevBPUW3ehzG07AoWy4S617GNMa/tUp5Zsy4eqTvXQoxMafjRKdoGecDBPhxF9/og4mpn9My90zUmQZ24gm32Mbdr94koAGRAEn4jCBgEpNiLP4toHTbNjcFFg4FC7Ttt+hUrzWyH+cpbM4m04dzB/n78LgvRZlX8xH0IFgtcu/235KWtfVqmiK56vvp4FoBs7YAYjA7Lt6zz9cBqUUSr1oEPrzktX5DSAFfeT9sHYA38DBQjZsSfBxhqybBjRWYu0ve4YHxG0SNI4LWCZiQRThPSSugZRObt9tnrupAgcULkcelnYOLHE4AsJ6/1bT1wME/AW/rM7/lhfg3NesBZgT+NSX+UK8y5LevwiOvmV+dXaTt2TGws73n3dwI7tKAYEC3D75EFfdKuTRGWMQJIEB9ujIxfoT5VqYGzGandqnggoLckvsQEEstN/tb57ao9VWjc0H7CQz6nl6Mf48JSIht4pgP9GwGF18j3LjDLn8hhr4RZ5AoTl9eHQZRMVVud2cThbTm5p9UJTq3vR5hGRJ6KheJjR8galUb74q4nZOPgN2RNLbi68YErkCSrQDJXVXQkbii+9ymD0t6E+lBDU05SSE86kb6wcQZdZ5J0eMF1NN5DbaVPSQYirIEiV/mA1tD9Gb4zN0+r+h+QePHlQiqJ9XKJY=

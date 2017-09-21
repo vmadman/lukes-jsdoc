@@ -1,0 +1,44 @@
+{
+  "name": "@lukechavers/jsdoc",
+  "version": "0.1.1",
+  "description": "A JSDoc theme and plugin collection based on Minami and Loke.",
+  "license": "MIT",
+  "main": "publish.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmadman/lukes-jsdoc"
+  },
+  "bugs": {
+    "url": "https://github.com/vmadman/lukes-jsdoc/issues"
+  },
+  "author": {
+    "name": "Luke Chavers",
+    "email": "luke@chavers.io",
+    "url": "http://www.lukechavers.com/"
+  },
+  "scripts": {
+    "fixture": "scripts/init-fixture-project.sh",
+    "test": "scripts/test.sh"
+  },
+  "devDependencies": {},
+  "directories": [
+    "lib",
+    "plugins",
+    "example",
+    "static",
+    "tmpl"
+  ],
+  "keywords": [
+    "jsdoc",
+    "minami",
+    "loke",
+    "docs",
+    "documentation"
+  ],
+  "dependencies": {
+    "jsdoc": "3.4.0",
+    "jsdoc-json": "2.0.0",
+    "lodash": "^4.5.1",
+    "tipe": "^0.1.12"
+  }
+}
