@@ -1,6 +1,10 @@
-[![NPM](https://nodei.co/npm/@lukechavers/jsdoc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@lukechavers/jsdoc/)
+Luke's JSDoc
+============
 
-[![Build Status](https://travis-ci.org/vmadman/lukes-jsdoc?branch=master)](https://travis-ci.org/vmadman/lukes-jsdoc)
+[![Travis](https://img.shields.io/travis/vmadman/lukes-jsdoc.svg)](https://travis-ci.org/vmadman/lukes-jsdoc)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/vmadman/lukes-jsdoc/master/LICENSE.md)
+[![NPM](https://img.shields.io/npm/v/@lukechavers/jsdoc.svg)](https://www.npmjs.com/package/@lukechavers/jsdoc)
+[![GitHub watchers](https://img.shields.io/github/watchers/vmadman/lukes-jsdoc.svg?style=social&label=Watch)](https://github.com/vmadman/lukes-jsdoc)
 
 This project provides [JSDoc](http://usejsdoc.org/) and a collection of 
 plugin's that I use for most of my JavaScript projects.
