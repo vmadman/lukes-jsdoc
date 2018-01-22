@@ -22,8 +22,8 @@ if (data.rpc) {
       <?js= self.partial('source-link.tmpl', data) ?>
     <?js } ?>
 
-    <h4 class="name" id="<?js= id ?>">
-      <a href="#params-<?js= data.name ?>"><?js= data.attribs + (kind === 'class' ? 'new ' : '') + name ?></a><?js= (data.signature || '') ?>
+    <h4 class="name" id="<?js= data.id ?>">
+      <a href="#params-<?js= data.id ?>"><?js= data.attribs + (kind === 'class' ? 'new ' : '') + name ?></a><?js= (data.signature || '') ?>
 
     </h4>
 
@@ -36,7 +36,7 @@ if (data.rpc) {
 
 <?js if (data.route) {
     ?>
-      <a href="#api-<?js= data.name ?>">
+      <a href="#api-<?js= data.id ?>">
         <span class="label label-api">API: <?js= data.route ?></span>
       </a>
     <?js
@@ -45,7 +45,7 @@ if (data.rpc) {
 <?js if (data.rpc) {
     if (data.kind !== 'class') {
         ?>
-        <a href="#api-<?js= data.name ?>">
+        <a href="#api-<?js= data.id ?>">
           <span class="label label-rpc">RPC: <?js= typeof data.rpc === 'string' ? data.rpc : data.name ?></span>
         </a>
         <?js
@@ -78,7 +78,7 @@ if (data.rpc) {
     <?js= self.partial('augments.tmpl', data) ?>
 <?js } ?>
 
-<div class="collapse_" id="methodCollapse-<?js= data.name ?>">
+<div class="collapse_" id="methodCollapse-<?js= data.id ?>">
 
   <?js if (kind === 'event' && data.type && data.type.names) {?>
       <h5>Type:</h5>
@@ -97,7 +97,7 @@ if (data.rpc) {
 <?js= this.partial('details.tmpl', data) ?>
 
 <?js if (data.params && params.length) { ?>
-  <div id="params-<?js= data.name ?>" class="bs-callout bs-callout-primary">
+  <div id="params-<?js= data.id ?>" class="bs-callout bs-callout-primary">
     <h5>Parameters</h5>
     <?js= this.partial('params.tmpl', params) ?>
   </div>
@@ -159,7 +159,7 @@ if (data.rpc) {
 } } ?>
 
 <?js if (data.route) { ?>
-  <div class="bs-callout bs-callout-api" id="api-<?js= data.name ?>">
+  <div class="bs-callout bs-callout-api" id="api-<?js= data.id ?>">
     <h5>
       API Route:
       <?js= data.route ?>
